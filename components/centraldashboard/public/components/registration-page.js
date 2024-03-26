@@ -16,7 +16,7 @@ import './resources/carousel-indicator.js';
 import './resources/animated-checkmark.js';
 import css from './registration-page.css';
 import template from './registration-page.pug';
-import logo from '../assets/logo.svg';
+import logo from '../assets/logo3.svg';
 
 import utilitiesMixin from './utilities-mixin.js';
 
