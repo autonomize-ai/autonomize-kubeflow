@@ -5,7 +5,7 @@
 :host {
     @apply --layout-vertical;
     --accent-color: #007dfc;
-    --primary-background-color: #0a3b71;
+    --primary-background-color:linear-gradient(180deg, #270067 48.96%, #8626c0);
     --sidebar-default-color: rgba(255, 255, 255, 0.5);
     --divider-color: #dadce0;
     --border-color: #eeeeef;
@@ -185,7 +185,7 @@ app-toolbar>header {
 
 #Narrow-Slider>.Logo {
     margin: 0;
-    color: var(--logo-color, var(--primary-background-color));
+    /* color: var(--logo-color, var(--primary-background-color)); */
 }
 
 #Narrow-Slider>.Logo>svg {
@@ -194,7 +194,7 @@ app-toolbar>header {
 }
 
 #Narrow-Slider>.Logo>svg * {
-    fill: currentColor;
+    fill: black;
 }
 
 #NamespaceSelector {
